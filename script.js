@@ -6,3 +6,8 @@ const hamburgerMenu = document.getElementById('hamburger-menu');
         // navList.classList.toggle('show');
         navList.classList.toggle('show');
     });
+
+
+var currentYear = new Date().getFullYear();
+
+ document.getElementById('copyrightYear').textContent = currentYear;
